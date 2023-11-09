@@ -3,7 +3,7 @@
 
 FROM busybox
 
-ENV HELLO="Hello from the enclave side!"
+ENV HELLO="Hello funfou!"
 COPY hello.sh /bin/hello.sh
 
 CMD ["/bin/hello.sh"]
